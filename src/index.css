@@ -1,0 +1,559 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* INDIETRO COMPONENT : to come back home no matter in which day you are : brown background-color on the left side of the page */
+
+#nav {
+  width: 40px;
+  background-color: brown;
+  font-size: 16pt;
+  padding: 10px;
+}
+
+/* #avanti {
+  width: 40px;
+  background-color: brown;
+  font-size: 16pt;
+  padding: 10px;
+} */
+
+
+/* CAL COMPONENT  */
+
+.cal {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  background-color: palevioletred;
+  font-size: 16pt;
+}
+
+#primo {
+  background-color: peachpuff;
+  padding: 20px;
+}
+
+#secondo {
+  background-color: gold;
+  padding: 20px;
+}
+
+#terzo {
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+#quarto {
+  background-color: green;
+  padding: 20px;
+}
+
+#quinto {
+  background-color: goldenrod;
+  padding: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 25px;
+  background-color: grey;
+  text-align: center;
+  font-size: 12pt;
+}
+
+
+/* ANIMALS COMPONENT */
+
+#animals h2 {
+  padding: 30px;
+}
+
+#animalsbody {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  background-color: palevioletred;
+}
+
+#animalsgrid {
+  display: grid;
+  justify-content: center;
+  background-color: palevioletred;
+}
+
+#animals {
+  width: 85%;
+  height: 100vh;
+  padding: 20px; 
+  display: grid;
+  justify-content: center;
+  grid-template-areas: 
+  "elefante björn esel"
+  "pooh björn esel"
+  "pooh volpe orso"
+  "giraffa volpe orso";
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;  
+  background-color: palevioletred;
+}
+
+#animals img {
+  max-width: 220px; 
+  border: papayawhip 11px solid; 
+}
+
+#animals h2 {
+  text-shadow: 2px 2px gainsboro;
+}
+
+#animals div:nth-child(1) {
+  grid-area: elefante;
+  align-self: stretch;
+} 
+
+#animals div:nth-child(1) img {
+  border-radius: 50%;
+  border: rgb(197, 58, 81) 7px solid;
+  height: 210px;
+  rotate: 27deg;
+}
+
+#animals div:nth-child(2) {
+  grid-area: esel;
+  align-self: stretch;
+}
+
+#animals div:nth-child(2) img {
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+#animals div:nth-child(3) {
+  grid-area: björn;
+  align-self: stretch;
+  rotate: 7deg;
+}
+
+#animals div:nth-child(3) img {
+  border: papayawhip 11px solid;
+  margin: 5px;
+}
+
+#animals div:nth-child(4) {
+  grid-area: giraffa;
+  align-self: stretch;
+  rotate:-5deg;
+}
+
+#animals div:nth-child(4) img {
+  border: 5px solid white;
+}
+
+#animals div:nth-child(5) img {
+  border: 30px solid rebeccapurple
+}
+
+#animals div:nth-child(5) {
+  grid-area: orso;
+  align-self: stretch;
+}
+
+#animals div:nth-child(6) {
+  grid-area: pooh;
+  align-self: stretch;
+}
+
+#animals div:nth-child(7) {
+  grid-area: volpe;
+  align-self: stretch;
+  rotate: -10deg;
+}
+
+#animals div:nth-child(7) img {
+  padding: 10px;
+  border: wheat solid 4px;
+}
+
+@media screen and (max-width: 1004px) {
+  #animamls {
+      grid-template: auto;
+  }
+}
+
+@media screen and (max-width: 942px) {
+
+  #animals img {
+      max-width: 200px;
+  }
+  
+} 
+
+@media screen and (max-width: 720px) {
+
+  #animals {
+      width: 100%;
+  }
+
+}  
+
+
+/* TREES COMPONENT  */
+
+#treesbody {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  background-color: orange;
+  width: 100%;
+  height: 100vh;
+}
+
+#treescomp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: orange;
+}
+
+#trees {
+  display: flex;
+  flex-direction: row;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.pinocchietto {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 4px solid wheat;
+}
+
+.titolo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 17px;
+}
+
+.treecard {
+  rotate: -15deg;
+}
+
+.animalcard {
+  rotate: -5deg;
+  cursor: pointer;
+}
+
+.pinocard {
+  rotate: 15deg;
+  cursor: pointer;
+}
+
+#trees img {
+  width: 250px;
+  height: 375px;
+  border: 17px solid orangered;
+  padding:17px;
+  border-radius: 10px;
+}
+
+#treescomp p {
+  font-size: 24pt;
+  text-shadow: 2px 2px rgb(197, 58, 81);
+  color: rgb(197, 58, 81);
+}
+
+
+/* POETRY COMPONENT */
+
+#poemsbody {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+}
+
+#poems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color: palevioletred;
+}
+
+#poems .testo {
+  color: purple;
+}
+
+#poems .comm {
+  color: black;
+}
+
+#poems img {
+  width: 220px;
+  height: 300px;
+  padding: 20px;
+}
+
+.carta {
+  display: flex;
+  flex-direction: row;
+  max-height: 340px;
+  border: 2px solid black;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.testo {
+  padding: 20px;
+}
+
+
+/* BALLS COMPONENT */
+
+#ballsbody {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  background-color: rgb(197, 58, 81);
+  width: 100%;
+  height: 100vh;
+}
+
+#balls {
+  background-color: rgb(197, 58, 81);
+  text-shadow: 2px 2px rgb(202, 155, 202);
+  font-size: 16pt;
+  color: white;
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 220px 220px 220px;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+
+#friends {
+  text-align: center;
+  padding: 8px;
+  padding-right: 70px;
+}
+
+.picbooks {
+  border-radius: 50%;
+  border: solid 7px pink;
+  width: 185px;
+  height: 185px;
+}
+
+.cerchio a {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px; 
+}
+
+#balls img:hover {
+  border: 35px solid rgb(255, 0, 127);
+  width: 220px;
+  height: 220px;
+  rotate: 35deg;
+}
+
+#balls div:nth-child(1) {
+  grid-column-start: 1;
+}
+
+#balls div:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  justify-self: center;
+}
+
+#balls div:nth-child(3) {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  text-align: end;
+} 
+
+#balls div:nth-child(4) {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  justify-self: center;
+}
+
+#balls div:nth-child(5) {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  justify-self: center;
+}
+
+#balls div:nth-child(6) {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  justify-self: end;
+  text-align: end;
+}
+
+#balls div:nth-child(7) {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  justify-self: right;
+}
+
+#balls div:nth-child(8) {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  justify-self: center;
+}
+
+#balls div:nth-child(9) {
+  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  justify-self: left;
+}
+
+@media screen and (max-width: 1000px) {
+  #container {
+      grid-template: auto;
+      padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #container {
+      grid-template-columns: 140px 140px;
+      grid-template-rows: 140px 140px 140px 140px;
+      align-items: center;
+  }
+
+} 
+
+@media screen and (max-width: 690px) {
+  #container {
+      grid-template-columns: 120px 120px;
+      grid-template-rows: 120px 120px 120px 120px;
+      align-items: center;
+      padding-left: 0px;
+  }
+
+  .picbooks {
+      width: 100px;
+      height: 100px;
+  }
+
+} 
+
+
+/* EGGS COMPONENT */
+
+#eggsbody {
+  display: grid;
+  grid-template-columns: 40px 1fr 190px;
+  background-color: orange;
+  width: 100%;
+  height: 100vh;
+}
+
+#eggs {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+#letsgo {
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#letsgo p {
+  padding: 3px;
+  font-size: 11pt;
+}
+
+#letsgo a {
+  width: 110px;
+  height: 55px;
+  border: purple dotted 6px;
+  color: purple;
+}
+
+#eggspertre {
+  display: grid;
+  grid-row: 1fr 210px 1fr;
+  justify-content: center;
+}
+
+#eggscit {
+  display: flex;
+  justify-content: center;
+}
+
+.eggscit {
+  background-color: blanchedalmond;
+  height: 350px;
+  width: 800px;
+  font-size: 16pt;
+  padding: 5px;
+  border: solid 33px rgb(255, 0, 127);
+  margin: 30px;
+}
+
+#eggs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+#heart {
+  width: 110px;
+  height: 55px;
+  padding: 20px;
+  border: solid 2px black;
+}
+
+.egg {
+  width: 130px;
+  height: 210px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.little {
+  width: 110px;
+  height: 190px;
+  border-radius: 45%;
+  border: 2px solid brown;
+}
+
+.big {
+  width: 170px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  background-color: lightskyblue;
+  cursor: pointer;
+}
+
+#cursor.little {
+  background-color: plum;
+  cursor: url(../public/home.svg), auto;
+}
+
+
+
+
+
+
