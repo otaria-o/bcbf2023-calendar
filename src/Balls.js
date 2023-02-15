@@ -15,7 +15,6 @@ function Balls() {
           </div>
           <div>
             <a
-              className="cerchio"
               href="http://www.beatricealemagna.com/mon-amour"
               target="_blank"
               rel="noopener noreferrer"
@@ -32,7 +31,6 @@ function Balls() {
           </div>
           <div>
             <a
-              className="cerchio"
               href="http://www.suzyleebooks.com/books/wave/"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,7 +44,6 @@ function Balls() {
           </div>
           <div>
             <a
-              className="cerchio"
               href="https://www.jimmyspa.com/en/Books/"
               target="_blank"
               rel="noopener noreferrer"
@@ -63,7 +60,6 @@ function Balls() {
           </div>
           <div>
             <a
-              className="cerchio"
               href="https://www.melanierutten.com/publications.php"
               target="_blank"
               rel="noopener noreferrer"
@@ -77,7 +73,6 @@ function Balls() {
           </div>
           <div>
             <a
-              className="cerchio"
               href="https://copic.jp/en/collaboration/illustration/yoshitake-shinsuke/"
               target="_blank"
               rel="noopener noreferrer"
@@ -91,7 +86,6 @@ function Balls() {
           </div>
           <div>
             <a
-              className="cerchio"
               href="https://www.andersen.it/miglior-libro-6-9-anni-vincitore21/"
               target="_blank"
               rel="noopener noreferrer"
