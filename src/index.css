@@ -522,11 +522,11 @@ footer {
   color: purple;
 }
 
-#eggspertre {
+/* #eggspertre {
   display: grid;
   grid-row: 1fr 210px 1fr;
   justify-content: center;
-}
+} */
 
 #eggscit {
   display: flex;
@@ -546,11 +546,15 @@ footer {
 #eggs {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   align-content: center;
   justify-content: center;
   padding: 50px;
+}
+
+#uovocigno {
+  display: none;
 }
 
 #heart {
@@ -588,6 +592,72 @@ footer {
   background-color: plum;
   cursor: url(../public/home.svg), auto;
 }
+
+@media screen and (max-width: 1355px) {
+  .eggscit {
+    font-size: 14pt;
+    padding: 5px;
+    border: solid 21px rgb(255, 0, 127);
+    margin: 10px;
+  }
+ }
+
+ @media screen and (max-width: 1230px) {
+  .eggscit {
+    padding: 5px;
+    border: solid 10px rgb(255, 0, 127);
+  }
+
+  #cursor {
+    display: none;
+  }
+ }
+
+  @media screen and (max-width: 1109px) {
+    .eggscit {
+      max-width: 650px;
+      padding: 5px;
+      border: solid 8px rgb(255, 0, 127);
+    }
+
+    #vogel {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 998px) {
+    .eggscit {
+      max-width: 600px;
+      border: none;
+      background-color: white;
+    }
+
+    #eggsbody {
+      background-color: white;
+    }
+    #eggs {
+      padding: 110px;
+      flex-wrap: wrap;
+    }
+    #vogel {
+      visibility: visible;
+    }
+  }
+
+  @media screen and (max-width: 880px) {
+    .eggscit {
+      max-width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .eggscit {
+      max-width: 300px;
+    }
+    #vogel {
+      display: none;
+    }
+  }
 
 
 
