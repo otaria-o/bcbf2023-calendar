@@ -9,8 +9,8 @@ function Poetry() {
         <section className="carta">
           <div>
             <img
-              src="http://www.brunotognolini.com/images/buiecov1.jpg"
-              alt="Rime buie, copertina, dal sito dell'autore"
+              src="https://www.salani.it/libri/rime-buie-9788831006958/image_preview"
+              alt="Rime buie, copertina, dal sito dell'editore"
             />
           </div>
           <div className="testo">
