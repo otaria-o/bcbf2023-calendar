@@ -23,7 +23,6 @@ function Poetry() {
               <br />
               Salani Editore
             </p>
-            <br />
             <div className="comm">
               <p>
                 Boschi dei rapimenti, isole da cui non si parte, bambini che
