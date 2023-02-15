@@ -311,6 +311,51 @@ footer {
   padding: 20px;
 }
 
+@media screen and (max-width: 900px) {
+  
+  .carta {
+    max-height: 600px;
+    margin: 5px;
+  }
+
+  #poems {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #poems img {
+    width: 220px;
+    height: 300px;
+    padding: 10px;
+  }
+  .carta {
+    max-height: 600px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+
+  #poems {
+    padding: 5px;
+  }
+
+  .testo {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carta {
+    display: flex;
+    flex-direction: column;
+  }
+  .carta {
+    max-height: 900px;
+    width: 400px;
+    margin: 5px;
+    border: 1px solid black;
+  }
+}
 
 /* BALLS COMPONENT */
 
