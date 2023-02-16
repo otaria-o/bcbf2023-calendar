@@ -113,6 +113,7 @@ function Eggs() {
             src="https://bolognachildrensbookfair.com/nqcontent/images/bcbf/logoBCBF60_Header.svg"
             alt="logo BCBF"
           />
+          LET'S GO!
         </a>
         <img id="heart" src="/heart.jpg" alt="cuore" />
       </div>
