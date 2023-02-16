@@ -1,4 +1,4 @@
-because I am passionated about books, especially picture books,
+because I am passionate about books, especially picture books,
 I did a calendar, waiting for the Bologna Children's Book Fair, 6-9 March 2023, 60th edition, Bologna Italy:
 it is a 5 days calendar, 1-5 March,
 built with React and a lot of CSS and JavaScript;
