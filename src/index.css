@@ -305,6 +305,70 @@ footer {
   color: rgb(197, 58, 81);
 }
 
+@media screen and (max-width: 1300px) {
+  #trees {
+    padding: 10px;
+  }
+
+  #trees img {
+    width: 180px;
+    height: 310px;
+    border: 7px solid orangered;
+  }
+
+  .pinocchietto {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #treescomp p {
+    font-size: 18pt;
+  }
+}
+
+@media screen and (max-width: 820px) {
+
+  #treescomp p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+
+  #trees img {
+    width: 150px;
+    height: 260px;
+    padding: 7px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  #trees {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #trees img {
+    width: 180px;
+    height: 310px;
+  }
+
+  .pinocchietto {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  #murdo {
+    display: none;
+  }
+
+  .pinocchietto {
+    margin: 2px;
+  }
+}
 
 /* POETRY COMPONENT */
 
