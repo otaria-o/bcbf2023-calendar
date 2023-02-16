@@ -522,24 +522,16 @@ footer {
   color: purple;
 }
 
-/* #eggspertre {
-  display: grid;
-  grid-row: 1fr 210px 1fr;
-  justify-content: center;
-} */
-
 #eggscit {
   display: flex;
   justify-content: center;
 }
 
 .eggscit {
-  background-color: blanchedalmond;
-  height: 350px;
+  height: 330px;
   width: 800px;
   font-size: 16pt;
   padding: 5px;
-  border: solid 33px rgb(255, 0, 127);
   margin: 30px;
 }
 
@@ -550,11 +542,6 @@ footer {
   align-items: center;
   align-content: center;
   justify-content: center;
-  padding: 50px;
-}
-
-#uovocigno {
-  display: none;
 }
 
 #heart {
@@ -596,18 +583,11 @@ footer {
 @media screen and (max-width: 1355px) {
   .eggscit {
     font-size: 14pt;
-    padding: 5px;
-    border: solid 21px rgb(255, 0, 127);
     margin: 10px;
   }
  }
 
  @media screen and (max-width: 1230px) {
-  .eggscit {
-    padding: 5px;
-    border: solid 10px rgb(255, 0, 127);
-  }
-
   #cursor {
     display: none;
   }
@@ -616,18 +596,14 @@ footer {
   @media screen and (max-width: 1109px) {
     .eggscit {
       max-width: 650px;
-      padding: 5px;
       border: solid 8px rgb(255, 0, 127);
-    }
-
-    #vogel {
-      display: none;
     }
   }
 
-  @media screen and (max-width: 998px) {
+  @media screen and (max-width: 1008px) {
     .eggscit {
       max-width: 600px;
+      height: 280px;
       border: none;
       background-color: white;
     }
@@ -636,23 +612,45 @@ footer {
       background-color: white;
     }
     #eggs {
-      padding: 110px;
       flex-wrap: wrap;
     }
-    #vogel {
-      visibility: visible;
+
+    .little {
+      width: 130px;
     }
   }
 
   @media screen and (max-width: 880px) {
     .eggscit {
-      max-width: 400px;
+      max-width: 400px; 
+      height: 380px;
+    }
+    .big {
+      display: none;
     }
   }
 
   @media screen and (max-width: 680px) {
+    #eggs {
+      padding-top: 180px;
+    }
     .eggscit {
-      max-width: 300px;
+      max-width: 250px;  
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .eggscit {
+      max-width: 150px; 
+      height: 400px;
+      font-size: 11pt;
+    } 
+  }
+
+  @media screen and (max-width: 430px) {
+    .eggscit {
+      max-width: 110px; 
+      height: 620px;
     }
     #vogel {
       display: none;
