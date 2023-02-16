@@ -61,9 +61,9 @@ function Trees() {
             src="https://www.arsedition.de/pondus/arsEdition/product/product-4587.png"
             alt="Der Baum der Erinnerung, copertina (dal sito della casa editrice tedesca)"
           />
-          {/* pic from Pixaby thanks to mariann72 */}
           <img
             className="pinocchietto"
+            id="murdo"
             src="/alberoMurdo.jpg"
             alt="particolare di Murdo (foto mia)"
           />
