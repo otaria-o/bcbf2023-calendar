@@ -14,13 +14,6 @@ body {
   padding: 10px;
 }
 
-/* #avanti {
-  width: 40px;
-  background-color: brown;
-  font-size: 16pt;
-  padding: 10px;
-} */
-
 
 /* CAL COMPONENT  */
 
@@ -370,6 +363,7 @@ footer {
   }
 }
 
+
 /* POETRY COMPONENT */
 
 #poemsbody {
@@ -457,6 +451,7 @@ footer {
     border: 1px solid black;
   }
 }
+
 
 /* BALLS COMPONENT */
 
@@ -618,9 +613,10 @@ footer {
 
 #letsgo a {
   width: 110px;
-  height: 55px;
+  height: 45px;
   border: purple dotted 6px;
   color: purple;
+  text-align: center;
 }
 
 #eggscit {
