@@ -64,7 +64,16 @@ function Cal() {
         </p>
       </div>
       <footer>
-        <b>&#169; otaria-o 2023</b>
+        <b>&#169; 
+         <a
+            href="https://github.com/otaria-o"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none", color: "black" }}
+          >
+            otaria-o
+          </a>
+          2023</b>
       </footer>
     </div>
   );
