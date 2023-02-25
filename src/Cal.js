@@ -64,7 +64,7 @@ function Cal() {
         </p>
       </div>
       <footer>
-        <b>&#169; 
+        <b>&#169; {" "}
          <a
             href="https://github.com/otaria-o"
             target="_blank"
@@ -73,7 +73,7 @@ function Cal() {
           >
             otaria-o
           </a>
-          2023</b>
+          {" "} 2023</b>
       </footer>
     </div>
   );
